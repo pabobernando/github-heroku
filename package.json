@@ -2,7 +2,7 @@
   "name": "nextjs-course",
   "version": "0.1.0",
   "engines":{
-    "node":"6.11.1"},
+    "node":"617.7.1"},
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
