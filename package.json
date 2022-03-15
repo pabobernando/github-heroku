@@ -1,14 +1,15 @@
 {
   "name": "nextjs-course",
   "version": "0.1.0",
-  "engines":{
-    "node":"6.11.1"},
+  "engines": {
+    "node": "6.11.1"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild":"npm run build",
+    "heroku-postbuild": "npm run build",
     "test": "jest",
     "lint": "eslint ."
   },
@@ -25,11 +26,11 @@
     "video-react": "^0.15.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^8.11.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.29.4",
-    "jest": "^27.5.1",
-    "babel-cli":"^6.26.0",
-    "babel-preset-env":"^1.7.0"
+    "jest": "^27.5.1"
   }
 }
